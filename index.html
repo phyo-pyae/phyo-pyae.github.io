@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		<meta charset="UTF-8">
+		<title>First anniversary of love</title>
+		<link rel="stylesheet" type="text/css" href="./css/format.css">
+	</head>
+
+	<body style="margin:0px">
+		<audio autoplay loop>
+			<source src="music/music.mp3" type="audio/mpeg">
+			Your browser does not support the audio.
+		</audio>
+		<canvas></canvas>
+		<div id="imgTxt">
+			<span id="Txt"></span> <br />
+			<span id="tmp"></span>
+			<div><img id="img" src=""></div>
+			
+		</div>
+		<div id="heartTxt">
+			<span id="clickMe">Click!</span>
+			<div id="heart">
+				<button id="button" onclick="play()"></button>
+			</div>
+		</div>
+		<div id="content">
+			<h2 id="together">We have been together</h2>
+			<div id="timer">
+				<b id="d"></b> Days 
+				<b id="h"></b> Hours
+				<b id="m"></b> Minutes
+				<b id="s"></b> Seconds
+			</div>
+		</div>
+
+    	<div id = "typeDiv">
+        	<span id="txt1"></span> <br />
+        	<span id="txt2"></span>
+    	</div>		
+
+		<script >
+			var ok = 0;
+			var flag = 1;
+			var myImage = document.getElementById("img");
+			var myTxt = document.getElementById("Txt");
+			var imageArray = ["pic/pic1.jpeg", "pic/pic2.jpeg", "pic/pic3.jpeg", "pic/pic4.jpeg", "pic/pic5.jpeg", "pic/pic6.jpeg", 
+			"pic/pic7.jpg", "pic/pic8.jpg", "pic/pic9.jpeg", "pic/pic10.jpeg", "pic/pic11.jpeg", "pic/pic12.jpeg", "pic/pic13.jpeg",
+			"pic/pic14.jpeg", "pic/pic15.jpg", "pic/pic16.jpeg"];
+			var imageIndex = 0;
+			var txtArray = ["Myanmar dress nk Princess lay <3", "Dr ka 6 mile mhr tone ka", "m shi tae eyebrow lay swel nay tae MaMa",
+			 "Ma pl drive nor Mg bay ka sit lyk ml (･∀･) ", "Mg tok yk fav place ly <3", "LOVE YOU SO MUCH...!", "Cocktail nk a lyk sone a myee ka br lel thi lrr..?",
+			 "Haw d ka per phaung phaung nk wat ka lay pr", "Haw x twr p (･∀･)", "Mg.yk gaber gyi...", "Pam lay tay htet po hla dl", 
+			 "sate m soe khin pic ly", "CUTE face with BIG ass o(≧v≦)o", "MISS YOU ~", "pyay pyay x fly tay win kome ml hehe", "CHIK DL"];
+			 var len = imageArray.length;
+			var t = 0;
+		</script>
+		
+		<script type="text/javascript" src="./js/stars.js"></script>
+		<script type="text/javascript" src="./js/typeWriter.js"></script>
+		<script type="text/javascript" src="./js/date.js"></script>
+		<script type="text/javascript" src="./js/playImg.js"></script>
+	</body>
+</html>
